@@ -11,7 +11,7 @@ license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [
     { name = "Pawan Tripathi", email = "ptripathi@anl.gov" },
-    { name = "Mathew J. Cherukara" },
+    { name = "Mathew J. Cherukara", email = "mcherukara@anl.gov" },
     { name = "Brian H. Toby", email = "toby@anl.gov" },
 ]
 keywords = ["gsas", "crystallography", "rag", "documentation", "xrd"]

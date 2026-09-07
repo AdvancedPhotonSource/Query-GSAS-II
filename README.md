@@ -15,7 +15,7 @@ unless you explicitly choose the Anthropic API backend.
 ## Authors
 
 - **Pawan Tripathi** — X-ray Science Division, Argonne National Laboratory (<ptripathi@anl.gov>)
-- **Mathew Cherukara** — X-ray Science Division, Argonne National Laboratory
+- **Mathew J. Cherukara** — X-ray Science Division, Argonne National Laboratory (<mcherukara@anl.gov>)
 - **Brian H. Toby** — X-ray Science Division, Argonne National Laboratory (<toby@anl.gov>)
 
 ---
