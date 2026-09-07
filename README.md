@@ -12,6 +12,13 @@ unless you explicitly choose the Anthropic API backend.
 
 ---
 
+## Authors
+
+- **Pawan Tripathi** — X-ray Science Division, Argonne National Laboratory (<ptripathi@anl.gov>)
+- **Brian H. Toby** — X-ray Science Division, Argonne National Laboratory (<toby@anl.gov>)
+
+---
+
 ## Installation
 
 ### pip
