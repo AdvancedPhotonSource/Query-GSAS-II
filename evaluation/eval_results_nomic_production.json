@@ -1,0 +1,415 @@
+{
+  "summary": {
+    "All": {
+      "n": 40,
+      "recall@1": 0.3,
+      "recall@3": 0.7,
+      "recall@6": 0.9,
+      "mrr": 0.507
+    },
+    "Rietveld": {
+      "n": 10,
+      "recall@1": 0.3,
+      "recall@3": 0.9,
+      "recall@6": 1.0,
+      "mrr": 0.57
+    },
+    "Sequential": {
+      "n": 8,
+      "recall@1": 0.25,
+      "recall@3": 0.375,
+      "recall@6": 0.875,
+      "mrr": 0.396
+    },
+    "Structure": {
+      "n": 6,
+      "recall@1": 0.333,
+      "recall@3": 0.833,
+      "recall@6": 1.0,
+      "mrr": 0.589
+    },
+    "Calibration": {
+      "n": 6,
+      "recall@1": 0.333,
+      "recall@3": 0.833,
+      "recall@6": 0.833,
+      "mrr": 0.556
+    },
+    "Scripting": {
+      "n": 5,
+      "recall@1": 0.2,
+      "recall@3": 0.6,
+      "recall@6": 0.6,
+      "mrr": 0.367
+    },
+    "Export": {
+      "n": 5,
+      "recall@1": 0.4,
+      "recall@3": 0.6,
+      "recall@6": 1.0,
+      "mrr": 0.54
+    }
+  },
+  "per_question": [
+    {
+      "id": 1,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CWCombined/Combined refinement.htm"
+    },
+    {
+      "id": 2,
+      "category": "Rietveld",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://briantoby.github.io/PowderCrystallography/HTML-templatese54.html"
+    },
+    {
+      "id": 3,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://gsas-ii.readthedocs.io/en/latest/GSASIIscriptable.html"
+    },
+    {
+      "id": 4,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CFsucrose/Charge Flipping - sucrose.htm"
+    },
+    {
+      "id": 5,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 6,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://gsas-ii.readthedocs.io/en/latest/graphics.html"
+    },
+    {
+      "id": 7,
+      "category": "Rietveld",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/help/powdersample.html"
+    },
+    {
+      "id": 8,
+      "category": "Rietveld",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/LeBail/LeBailSucrose.htm"
+    },
+    {
+      "id": 9,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CFsucrose/Charge Flipping - sucrose.htm"
+    },
+    {
+      "id": 10,
+      "category": "Rietveld",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.2,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 11,
+      "category": "Sequential",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.167,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CWCombined/Combined refinement.htm"
+    },
+    {
+      "id": 12,
+      "category": "Sequential",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.167,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm"
+    },
+    {
+      "id": 13,
+      "category": "Sequential",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm"
+    },
+    {
+      "id": 14,
+      "category": "Sequential",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqParametric/ParametricFitting.htm"
+    },
+    {
+      "id": 15,
+      "category": "Sequential",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/help/powderinst.html"
+    },
+    {
+      "id": 16,
+      "category": "Sequential",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.167,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 17,
+      "category": "Sequential",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.167,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 18,
+      "category": "Sequential",
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "rr": 0.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/TOF-CW Joint Refinement/TOF combined XN Rietveld refinement in GSAS.htm"
+    },
+    {
+      "id": 19,
+      "category": "Structure",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 20,
+      "category": "Structure",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/MCsimanneal/MCSA in GSAS.htm"
+    },
+    {
+      "id": 21,
+      "category": "Structure",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.2,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/k_vec_tutorial_non_zero/k_vec_tutorial_non_zero.html"
+    },
+    {
+      "id": 22,
+      "category": "Structure",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/tutorials.html"
+    },
+    {
+      "id": 23,
+      "category": "Structure",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/StackingFaults-III/Stacking Faults-III.htm"
+    },
+    {
+      "id": 24,
+      "category": "Structure",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/MerohedralTwins/Merohedral twin refinement in GSAS.htm"
+    },
+    {
+      "id": 25,
+      "category": "Calibration",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/help/image.html"
+    },
+    {
+      "id": 26,
+      "category": "Calibration",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CalibrationTutorial/CalibrationTutorial.html"
+    },
+    {
+      "id": 27,
+      "category": "Calibration",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/TOF Calibration/Calibration of a TOF powder diffractometer.htm"
+    },
+    {
+      "id": 28,
+      "category": "Calibration",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/FPAfit/FPAfit.htm"
+    },
+    {
+      "id": 29,
+      "category": "Calibration",
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "rr": 0.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/2DCalibration/Calibration of an area detector in GSAS.htm"
+    },
+    {
+      "id": 30,
+      "category": "Calibration",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CalibrationTutorial/CalibrationTutorial.html"
+    },
+    {
+      "id": 31,
+      "category": "Scripting",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/install_dev.html"
+    },
+    {
+      "id": 32,
+      "category": "Scripting",
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "rr": 0.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/install_dev.html"
+    },
+    {
+      "id": 33,
+      "category": "Scripting",
+      "h1": false,
+      "h3": false,
+      "h6": false,
+      "rr": 0.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/LabData/Laboratory X.htm"
+    },
+    {
+      "id": 34,
+      "category": "Scripting",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.5,
+      "top_url": "https://gsas-ii.readthedocs.io/en/latest/GSASIIscriptable.html"
+    },
+    {
+      "id": 35,
+      "category": "Scripting",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/ParameterLimits/ParameterLimitsUse.html"
+    },
+    {
+      "id": 36,
+      "category": "Export",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/CIFtutorial/CIFtutorial.html"
+    },
+    {
+      "id": 37,
+      "category": "Export",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.2,
+      "top_url": "https://briantoby.github.io/PowderCrystallography/HTML-templatese85.html"
+    },
+    {
+      "id": 38,
+      "category": "Export",
+      "h1": false,
+      "h3": true,
+      "h6": true,
+      "rr": 0.333,
+      "top_url": "https://gsas-ii.readthedocs.io/en/latest/graphics.html"
+    },
+    {
+      "id": 39,
+      "category": "Export",
+      "h1": true,
+      "h3": true,
+      "h6": true,
+      "rr": 1.0,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm"
+    },
+    {
+      "id": 40,
+      "category": "Export",
+      "h1": false,
+      "h3": false,
+      "h6": true,
+      "rr": 0.167,
+      "top_url": "https://advancedphotonsource.github.io/GSAS-II-tutorials/StackingFaults-I/Stacking Faults-I.htm"
+    }
+  ]
+}

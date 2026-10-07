@@ -39,11 +39,11 @@ jobs:
           path: ~/.cache/pip
           key: pip-ingest-${{ hashFiles('pyproject.toml') }}
 
-      - name: Cache bge-base ONNX model
+      - name: Cache nomic-embed-text ONNX model
         uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/ci_data/models
-          key: bge-base-en-v1.5-onnx-quantized
+          key: nomic-embed-text-v1.5-onnx-quantized
 
       - name: Install gsas_query package
         run: pip install -e ".[dev]"
