@@ -4,10 +4,8 @@ Default: nomic-ai/nomic-embed-text-v1.5 via onnxruntime + tokenizers (no
 fastembed, no PyTorch). The quantized ONNX model (~110 MB) is downloaded
 once to the GSAS-II data directory and reused on every subsequent launch.
 
-The previous default, BAAI/bge-base-en-v1.5, was replaced because BAAI
-(Beijing Academy of Artificial Intelligence) is a Chinese state-affiliated
-research institute; this deployment targets US government facilities.
-nomic-embed-text-v1.5 (Nomic AI, US) is the best-performing non-Chinese
+
+nomic-embed-text-v1.5 (Nomic AI, US) is the best-performing 
 alternative found in evaluation (see evaluation/EVALUATION_CASE_STUDY.md)
 and keeps the same 768-dimensional output.
 
